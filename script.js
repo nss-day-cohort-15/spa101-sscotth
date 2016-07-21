@@ -10,7 +10,7 @@ console.log('Welcome to our website fellow developer!')
     var navLinks = document.querySelectorAll('li')
 
     for (var i = 0; i < navLinks.length; i++) {
-      navLinks[i].addEventListener('click', clickedNavLink);
+      navLinks[i].addEventListener('click', clickedNavLink)
     }
   }())
 
